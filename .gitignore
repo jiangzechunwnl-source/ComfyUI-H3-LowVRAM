@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.h3-low-vram-cache/
+outputs/
+models/
+*.safetensors
+*.gguf
+*.mp4
+*.png
+*.log
