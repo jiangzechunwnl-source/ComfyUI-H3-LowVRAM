@@ -63,7 +63,7 @@ That allocator statistic is **not total GPU memory**, a universal requirement, o
 
 Model weights, complete K/V, text encoding, VAE decoding, system RAM and the display driver still need resources. **A 4 GB card is not guaranteed to run H3.** Start with a shorter, smaller request and increase gradually. The patch's results depend on model, quantization, backend, frame count and available memory.
 
-**Windows follow-up (2026-11-08):** On the same 8 GB laptop GPU, the integrated application completed 8 steps in 40:28 and 4 steps in 21:47 (ComfyUI prompt time) at 75,371 packed tokens with fixed 1024-token chunks. Mean sampling time was about 277–278 seconds per step in both runs. See the [follow-up measurements](https://github.com/jiangzechunwnl-source/ComfyUI-H3-LowVRAM/releases/tag/v0.1.0#windows-follow-up-measurements-2026-11-08) for the launcher settings and memory behavior. Full-video verification with the standalone package is pending.
+**Windows follow-up (2026-11-08):** On the same 8 GB laptop GPU, the integrated application completed 8 steps in 40:28 and 4 steps in 21:47 (ComfyUI prompt time) at 75,371 packed tokens with fixed 1024-token chunks. Mean sampling time was about 277–278 seconds per step in both runs. See the [follow-up measurements](https://github.com/jiangzechunwnl-source/ComfyUI-H3-LowVRAM/releases/tag/v0.1.0) for the launcher settings and memory behavior. Full-video verification with the standalone package is pending.
 
 ## Deliberately isolated
 
